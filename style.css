@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: #0284c7;
+  color: white;
+  padding: 20px;
+}
+
+#search-box {
+  padding: 8px;
+  width: 250px;
+  margin-top: 10px;
+}
+
+#search-btn {
+  padding: 8px 12px;
+  margin-left: 5px;
+  background-color: #10b981;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#map {
+  width: 100%;
+  height: 70vh;
+}
+
+#directions {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background: #f9f9f9;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#steps-list {
+  list-style: decimal;
+  padding-left: 20px;
+  color: #333;
+}
+
+footer {
+  padding: 10px;
+  background: #f1f1f1;
+  color: #555;
+}
